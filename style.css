@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: sans-serif;
+}
+ul.sidebar {
+    background-color: red;
+    width: 300px;
+    padding: 20px;
+    height: 100vh;
+}
+ul.sidebar li:first-child{
+    padding: 30px 0 ;
+}
+ul.sidebar li{
+    padding: 20px 0;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 200;
+    font-size: 20px;
+}
+ul.sidebarClosed{
+    width: 20px; 
+}
