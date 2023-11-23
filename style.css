@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: sans-serif;
+}
+ul.sidebar li.header input#checkBar {
+    /* display: none; */
+}
+
+ul.sidebar {
+    width: 300px;
+    background: red;
+    height: 100vh;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+}
+ul.sidebar li{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    font-size: 20px;
+    padding: 10px;
+}
+ul.sidebar li i{
+    font-size: 20px;
+    font-weight: 900;
+}
+ul.sidebar span{
+    margin-left: 2rem;
+}
+ul li.header {
+    padding: 30px 10px ;
+}
+ul li.header i {
+    z-index: 1;
+
+}
+ul li.header #checkBar:checked ~ .sidebar li .labelIcon {
+    background: blue;
+}
