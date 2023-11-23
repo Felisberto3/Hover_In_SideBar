@@ -18,17 +18,17 @@ ul.sidebar {
 ul.sidebar li{
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 35%;
     font-size: 20px;
     padding: 10px;
 }
 ul.sidebar li i{
     font-size: 20px;
     font-weight: 900;
+    cursor: pointer;
+
 }
-ul.sidebar span{
-    margin-left: 2rem;
-}
+
 ul li.header {
     padding: 30px 10px ;
 }
