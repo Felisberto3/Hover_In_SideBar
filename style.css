@@ -12,9 +12,14 @@ ul.sidebar {
 }
 ul.sidebar li:first-child{
     padding: 30px 0 ;
+    font-size: 25px;
+    width: 110px;
 }
 ul.sidebar li i, li span{
     border: 2px solid transparent;
+}
+ul.sidebar li i{
+    cursor: pointer;
 }
 ul.sidebar li{
     position: relative;
@@ -29,8 +34,7 @@ ul.sidebarClosed li i:hover  ~ span{
     border: 2px solid red;
     border-radius: 20px;
     width: 50px;
-    text-align: center  ;
-    padding: 10px;
+    padding: 5px;
     left: 50px;
     font-size: 15px;
     display: block;
@@ -41,4 +45,6 @@ ul.sidebarClosed{
 ul.sidebarClosed li span{
     display: none;
     position: absolute;
+    text-align: center ;
+
 }
