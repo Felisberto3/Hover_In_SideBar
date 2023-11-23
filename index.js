@@ -1,10 +1,10 @@
 const touch = document.querySelector('.sidebar .header .barIcon')
 
+const spans = document.querySelectorAll('.sidebar span')
 touch.onclick = () => {
     const sidebar = document.querySelector('.sidebar')
     sidebar.classList.toggle('sidebarClosed')
 
-    const spans = document.querySelectorAll('.sidebar span')
     const isSideBardCloset = sidebar.classList.contains('sidebarClosed')
 
     if (isSideBardCloset) {
@@ -14,8 +14,13 @@ touch.onclick = () => {
         spans.forEach(span=> span.style.display="block") 
     }
 }
-const touchIcon = document.querySelectorAll('.sidebar li i')
+const icons = document.querySelectorAll('.sidebar li i')
 
-touchIcon.forEach(icon=>{
-    // console.log(icon.);
-})
+icons.forEach((icon,index) => {
+    icon.onmouseover=() =>{
+        spans[index].style=`
+        display:block
+        margin-left: 10rem
+        `
+    }
+});
