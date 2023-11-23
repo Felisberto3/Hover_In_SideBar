@@ -1,5 +1,5 @@
 const touch = document.querySelector('.sidebar .header .barIcon')
 
 touch.onclick = () => {
-   console.log(touch);
+    document.querySelectorAll('.sidebar li span').style.display="none"
 }
