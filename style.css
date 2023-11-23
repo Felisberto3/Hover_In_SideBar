@@ -10,10 +10,10 @@ ul.sidebar {
     background: red;
     height: 100vh;
     padding: 20px;
-
     display: flex;
     flex-direction: column;
     gap: .2rem;
+    transition: all .3s ease;
 }
 ul.sidebar li{
     display: flex;
@@ -32,7 +32,7 @@ ul.sidebar span{
 ul li.header {
     padding: 30px 10px ;
 }
-.sidebarClosed {
+ul.sidebarClosed {
     width: 35px;
     border: 1px solid blue;
     overflow: hidden;
