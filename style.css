@@ -4,9 +4,6 @@
     list-style: none;
     font-family: sans-serif;
 }
-ul.sidebar li.header input#checkBar {
-    /* display: none; */
-}
 
 ul.sidebar {
     width: 300px;
@@ -34,11 +31,4 @@ ul.sidebar span{
 }
 ul li.header {
     padding: 30px 10px ;
-}
-ul li.header i {
-    z-index: 1;
-
-}
-ul li.header #checkBar:checked ~ .sidebar li .labelIcon {
-    background: blue;
 }
