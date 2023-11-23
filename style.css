@@ -32,7 +32,8 @@ ul.sidebar span{
 ul li.header {
     padding: 30px 10px ;
 }
-ul {
-    width: 20px;
+.sidebarClosed {
+    width: 35px;
     border: 1px solid blue;
+    overflow: hidden;
 }
