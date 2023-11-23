@@ -21,6 +21,9 @@ ul.sidebar li{
     font-weight: 200;
     font-size: 20px;
 }
+ul.sidebar li i:hover > span{
+    border: 1px solid red;
+}
 ul.sidebarClosed{
     width: 20px; 
 }
